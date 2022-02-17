@@ -1,0 +1,36 @@
+<%- contentFor ('body') %>
+
+<body>
+<div class="container">
+    <h1 class="display-4">Estos son tus datos</h1>
+    <br>
+    
+<table id="myTable" class="table table-striped table-responsive-md btn-table">
+    <thead>
+    <tr>
+    <th class="th-sm" >Nombre</th>
+    <th class="th-sm">Apellido Paterno</th>
+    <th class="th-sm">Apellido Materno</th>
+    <th class="th-sm">Fecha de Nacimiento</th>
+    <th class="th-sm">Genero</th>
+    <th class="th-sm">Estado</th>
+    <th class="th-sm">Curp</th>
+    </tr>
+    </thead>
+    <tbody>
+        <% curp.forEach(function(curp){  %>
+          <tr>
+            <td><%= curp.nombre %></td>
+            <td><%= curp.paterno %></td>
+            <td><%= curp.materno %></td>
+            <td><%= curp.birthday %></td>
+            <td><%= curp.gender %></td>
+            <td><%= curp.estado %></td>
+            <td><%= curp.curp %></td>
+          </tr>
+        <%})%>
+  
+    </tbody>
+   </table>
+  </div>
+</body>

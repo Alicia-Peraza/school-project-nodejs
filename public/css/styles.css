@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: beige ;
+}
+
+header .navbar {
+  border-radius: 0;
+  margin: 0;
+  background-color:rgb(230, 197, 146) ;
+  
+}
+
+.hero {
+  background-image: url(../img/image.png);
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: 40px 40px;
+  padding: 10px 0;
+  min-height: 500px;
+  position: relative;
+  
+ 
+  
+  
+}
+
+li{
+  list-style-type: none;
+}
+
+
+.hero-content {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  width: 100%;
+
+
+}
+
+.hero-content h2 {
+  color: #FFF;
+  font-size: 80px;
+}
+
+.hero-content p {
+  color: rgb(42, 168, 69);
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  border-radius: 2px;
+  padding: 10px 20px;
+  margin-top: 5px;
+} 
+
+
+main {
+  min-height: 500px;
+  padding: 50px 0;
+}
+
+footer {
+  padding: 30px 0;
+  font-size: 14px;
+  color: #BBB;
+  background: #222;
+  text-align: center;
+}
+
+
+
+
+button{
+  border-radius: 5px;
+  background-color: rgb(230, 197, 146) ;
+  color: #FFF;
+}
+
+
+a{
+  color: #FFF;
+}
+
+.back{
+  background-color: beige;
+}
+
+#enviar{
+  margin-left: 830px;
+  margin-top: 15px;
+  background-color: rgb(230, 197, 146) ;
+  color: #FFF;
+ 
+}

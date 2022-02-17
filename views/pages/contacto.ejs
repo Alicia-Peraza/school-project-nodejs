@@ -1,0 +1,32 @@
+<%- contentFor ('body') %>
+<div class="">
+    <div class="container">
+      <h1 class="display-4">Comunicate con nosotros</h1>
+
+      <form action="/contacto" method="POST">
+      <div class="row mt-2">
+        <div class="form-group col-4">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" name="nombre" placeholder="primer nombre" required>
+         
+        </div>
+
+        <div class="col-md-6">
+            <label>Correo</label>
+            <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com" name="email" required> 
+        </div>
+      
+      <div class="col-md-10">
+        <label>Mensaje</label>
+        <textarea type="text-area" class="form-control" placeholder="Dinos tu dudas" name="msg" required> </textarea>
+    </div>
+  
+    <div class="col-md-12">
+      <div class="row mt-12">
+    <button class="btn btn-lg" style="color: white;" id="enviar" type='submit'>Enviar</button>
+     </div>
+    </div>
+    </div>
+</form>
+  </div>
+</div>
